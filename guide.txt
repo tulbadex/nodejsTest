@@ -1,0 +1,42 @@
+# to create new folder in location u are on cmd 
+mkdir name_of_folder
+# to open vs code from command line, navidate to directory and use the below code
+code .
+
+# to make package.json appears in order to monitor all packages
+npm init
+
+# nodemon is a package which help with live reload server
+npm install -g nodemon
+nodemon and_file_name
+
+# lodash
+npm i lodash
+npm i --save lodash
+
+# installing express: express is a node framework that is capable of handling web
+npm install express
+
+# installing view engines, which allow dynamic output of server code in html
+# we can use express handlebars, pug, EJS
+npm install ejs
+
+# HTTP request logger middleware
+npm install morgan
+
+# getting started with mongoDB
+# mongogodb.com/cloud/atlas
+register
+create a cluster -> free -> give cluster a name cluster_name -> click create cluster
+# create databse
+click on collections tab -> click on add my own data or database -> give name to database(escageBlog) and 
+collection(blogs) -> click on create -> 
+# create a user
+go to data access -> give database_user(root) and password(root123) -> click add user
+# to get the connection string for our database 
+click on connect from clusters tab -> click connect from our application -> copy the connection string -> cancel
+# to whitelist ip
+Go to network access tab -> click add ip address -> click on allow access from anywhere or chose current ip
+
+# connecting with mongoDB we use mongoose, mongoose is and ODM library - Object Document Mapping library
+npm install mongoose
